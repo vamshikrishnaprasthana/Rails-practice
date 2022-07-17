@@ -1,4 +1,4 @@
 class Shopkeeper < ApplicationRecord
-  has_many :fruits
-  has_many :fruits,through: :shop
+  has_many :shops
+  has_many :fruits, through: :shop
 end
